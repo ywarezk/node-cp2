@@ -11,6 +11,7 @@ other module can import those public stuff.
 ## NPM
 
 install and publish packages
+plus version managment
 
 ## NVM 
 
@@ -25,3 +26,7 @@ execute node commands
 node_modules/karma/bin/karma.exe
 
 node_modules/.bin/karma.exe
+
+npx karma
+
+npx webpack

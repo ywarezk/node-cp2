@@ -1,0 +1,18 @@
+{
+  "name": "04-express-introduction",
+  "version": "1.0.0",
+  "description": "Express Framework to build web servers\r Express job is to listen to request and when one enters send a response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}

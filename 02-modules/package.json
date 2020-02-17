@@ -1,0 +1,14 @@
+{
+  "name": "hello",
+  "version": "2.0.0",
+  "description": "every js file is a module\r module exposes some public stuff\r other module can import those public stuff.",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

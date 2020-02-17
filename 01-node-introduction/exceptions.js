@@ -22,6 +22,7 @@ const myError = new Error("something happened");
 
 const timerPromise = new Promise(function(resolve, reject) {
     setTimeout(function() {
+        // console.log(myError);
         reject(new Error())
     }, 1000);
 });

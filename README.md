@@ -120,3 +120,23 @@ Create the following:
 - Create a Router for a user REST api
 - create CRUD REST api for the UserService
 
+### Express Advanced
+
+In this lesson we will learn how to solve problems you will stumble on when working on your server application.
+
+We will cover the following:
+- Common way to solve problems
+- express.static
+- body
+- cookies
+- session
+- authentication
+- JWT
+- CORS
+- CSRF
+
+### Working with database
+
+In this lesson we will combine our express application with database and start working with a database using Sequelize ORM.
+
+We will cover the following:

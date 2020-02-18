@@ -115,10 +115,15 @@ Create the following:
   - getUsers: () => User[]
   - getUser: (id: number) => User
   - addUser: (user: User) => User
-  - updateUser: (user: Partial<User>) => User
+  - updateUser: (user: Partial`<User>`) => User
   - deleteUser: (id: number) => void
 - Create a Router for a user REST api
 - create CRUD REST api for the UserService
+
+### Mocha
+
+In this lesson we will learn how to test our express server
+using mocha
 
 ### Express Advanced
 
@@ -139,4 +144,31 @@ We will cover the following:
 
 In this lesson we will combine our express application with database and start working with a database using Sequelize ORM.
 
+This lecture is covered in the following video:
+https://youtu.be/n6zS5etfaTg
+
+We will learn how to create REST server and GraphQL server
 We will cover the following:
+- Relational DBS
+- What is ORM and what dbs we will cover
+- What is sequelize
+- Our first db and rest server
+- GraphQL
+- Our first GraphQL server
+- Migrations
+- Seeders
+- Sequelize-cli
+- table associations
+
+### Student EX.
+
+In this exercise you will try to create your first REST server and GraphQL server that is connected to a database.
+Your database will contain a single table called **Users**
+your table will contain the following columns:
+- id
+- firstName
+- lastName
+- email
+- password
+
+Create a CRUD REST API to the above table

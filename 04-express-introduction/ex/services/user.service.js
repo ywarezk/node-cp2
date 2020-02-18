@@ -11,6 +11,10 @@ class UserService {
         return this.users;
     }
 
+    getSingleUser(id) {
+        return this.users.find((singUser) => singUser.id == id);
+    }
+
     addUser(user) {
         this.users.push(user);
         return user;

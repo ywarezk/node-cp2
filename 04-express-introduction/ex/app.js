@@ -87,11 +87,21 @@ app.route("/api/users/:id")
 
     // partial update
     .patch(function(req, res) {
-        
+        const user = req.body;
+        user.id = req.params.id;
+        userService.updateUser(user);
+        res.json(user);
     })
-    .put()
-    .delete(function(req, res) {
 
+    // full update
+    .put((req, res) => {
+        const user = req.body;
+        user.id = req.params.id;
+        userService.updateUser(user);
+        res.json(user);
+    })
+    .delete(function(req, res) {
+        userService.de
     });
 
 module.exports = app;

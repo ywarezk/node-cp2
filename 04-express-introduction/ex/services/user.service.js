@@ -30,6 +30,10 @@ class UserService {
         this.users.push(user);
         return user;
     }
+
+    deleteUser(id) {
+        this.users.filter
+    }
 }
 
 module.exports = new UserService();

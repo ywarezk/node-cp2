@@ -4,10 +4,13 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const todoRouter = require("./routes/todo");
+const apolloServer = require("./graphql/server");
 
 
 
 var app = express();
+
+apolloServer.applyMiddleware({app});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

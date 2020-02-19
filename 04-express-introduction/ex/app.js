@@ -47,7 +47,10 @@ app.route("/api/users")
 
     // bulk insert
     .patch(function(req, res) {
-        
+        let users = req.body;
+        const users = users.map((singleUser) => new User(singleUser));
+        userService.addUser(users);
+        res.status(201).json(users);
     })
 
 /**
@@ -82,7 +85,7 @@ app.route("/api/users/:id")
         res.json(user);
     })
 
-    // update a single user
+    // partial update
     .patch(function(req, res) {
         
     })
